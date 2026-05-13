@@ -31,3 +31,13 @@ def test_pop(stack):
     assert stack.pop() == "world"
     assert stack.pop() == "hello"
     assert stack.pop() is None
+
+@pytest.mark.parametrize("even_value, expected", [
+    (2, True),
+    (3, False),
+    (4, True),
+    (5, False)
+])
+def test_is_even(stack, even_value, expected):
+    stack.push(even_value)
+    assert stack.is_even(even_value) == expected

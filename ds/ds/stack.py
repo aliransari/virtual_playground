@@ -22,3 +22,8 @@ class Stack:
             return self._storage.pop()
         except IndexError:
             return None
+    def is_even(self, value):
+        """Is even method."""
+        if value in self._storage:
+            return value % 2 == 0
+        return None

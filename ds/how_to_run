@@ -1,0 +1,12 @@
+# pwd = ~/virtualenv/venv_realpython/venv_pytest/ds 
+$ python -m pytest -v
+
+-->
+tests/test_stack.py::test_constructor PASSED                                                                                                    [ 14%]
+tests/test_stack.py::test_push PASSED                                                                                                           [ 28%]
+tests/test_stack.py::test_pop PASSED                                                                                                            [ 42%]
+tests/test_stack.py::test_is_even[2-True] PASSED                                                                                                [ 57%]
+tests/test_stack.py::test_is_even[3-False] PASSED                                                                                               [ 71%]
+tests/test_stack.py::test_is_even[4-True] PASSED                                                                                                [ 85%]
+tests/test_stack.py::test_is_even[5-False] PASSED                                                                                               [100%]
+
